@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img{
+    width: 100%;
+}
+
+#slider{
+    position: relative;
+}
+
+.arrows{
+    background-color: #fff;
+    padding: 15px 6px;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.next{
+    right: 20px;
+    @extend .arrows;
+}
+
+.prev{
+    left: 20px;
+    @extend .arrows;
+}
